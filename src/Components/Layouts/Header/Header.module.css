@@ -54,24 +54,6 @@ li {
   position: absolute;
   left: 92%;
 }
-.en {
-  cursor: pointer;
-  padding-bottom: 5px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  text-decoration-line: underline;
-  color: #ffffff;
-}
-.ru {
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  text-decoration-line: underline;
-  padding-bottom: 5px;
-  color: #ffffff;
-}
 .line {
   box-sizing: border-box;
   display: flex;
@@ -93,20 +75,7 @@ a {
   display: none;
 }
 
-@media (max-width: 1920px) {
-ul {
-  /* display: flex; */
-}
-}
-
-
 @media (max-width: 1000px) {
-  .en {
-    font-size: 15px;
-  }
-  .ru {
-    font-size: 15px;
-  }
   header {
     position: sticky;
     background: #157044;
@@ -138,7 +107,7 @@ ul {
     top: 0;
     bottom: 0;
     width: 100%;
-    height: 300px;
+    height: 200px;
     z-index: 10;
     transition: left 1s;
     display: inline-block;
