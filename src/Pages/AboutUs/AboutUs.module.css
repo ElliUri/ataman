@@ -1,0 +1,149 @@
+.aboutUs {
+  animation-name: appear;
+  animation-duration: 3s;
+  padding-top: 100px;
+  padding-bottom: 45px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #22181c;
+}
+
+.what_they {
+  animation-name: appear;
+  animation-duration: 3s;
+  padding-top: 45px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #22181c;
+}
+
+.manager {
+  animation-name: appear;
+  animation-duration: 3s;
+  padding-left: 6%;
+  padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+
+.director {
+  animation-name: appear;
+  animation-duration: 3s;
+  padding-left: 6%;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+.director {
+  animation-name: appear;
+  animation-duration: 3s;
+  padding-left: 6%;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+
+.mission {
+  animation-name: appear;
+  animation-duration: 3s;
+  padding-top: 24px;
+  padding-left: 6%;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 46px;
+}
+.we {
+  animation-name: appear;
+  animation-duration: 3s;
+  padding-top: 24px;
+  padding-left: 6%;
+  width: 70%;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 46px;
+}
+.live {
+  animation-name: appear;
+  animation-duration: 3s;
+  padding-left: 6%;
+  font-size: 30px;
+  width: 70%;
+}
+
+.back_yellow1 {
+  height: 700px;
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+.back_yellow2 {
+  height: 1200px;
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+  left: 0;
+  top: 700px;
+}
+.back_yellow3 {
+  height: 800px;
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+  left: 0;
+  top: 2000px;
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .back_yellow2 {
+    display: none;
+  }
+  .aboutUs {
+    font-size: 26px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+  .manager {
+    font-size: 26px;
+  }
+  .director {
+    font-size: 20px;
+    line-height: 18px;
+  }
+  .what_they {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .mission {
+    font-size: 24px;
+    line-height: 23px;
+  }
+  .we {
+    font-size: 20px;
+    line-height: 17px;
+  }
+  .live {
+    width: 80%;
+    font-size: 20px;
+    line-height: 21px;
+  }
+}

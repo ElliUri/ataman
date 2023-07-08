@@ -1,0 +1,85 @@
+.certificate {
+  z-index: -11;
+  padding-top: 100px;
+  padding-bottom: 45px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #22181c;
+}
+
+
+.certificate_img {
+  z-index: -11;
+  display: flex;
+  justify-content: center;
+  animation: 3s anim-lineUp ease-out;
+  padding-top: 100px;
+}
+.yellow {
+  left: 0;
+  top: -20px;
+  width: 100%;
+  position: absolute;
+}
+.box_certificate {
+  padding-top: 132px;
+  display: flex;
+  justify-content: center;
+}
+.rectan {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+left: 0;
+top: 1400px;
+}
+
+.yellow {
+    top: 80px;
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    left: 0;
+}
+
+
+/* really important */
+.img_left {
+  padding-left: 105px;
+} 
+
+@media (max-width: 1200px) {
+ .certificate_img {
+  width: 290px;
+height: 409px;
+ }
+ .img_left {
+  padding-left: 42px;
+  width: 290px;
+  height: 409px;
+ }
+ .img_right {
+  padding-left: 42px;
+
+   width: 290px;
+  height: 409px;
+ }
+ .box_certificate {
+  display: inline;
+ }
+}
+
+@media (max-width: 1000px) {
+  .certificate {
+  z-index: -11;
+  }
+  .certificate_img {
+  z-index: -11;
+  }
+.rectan {
+  display: none;
+}
+}
+ 

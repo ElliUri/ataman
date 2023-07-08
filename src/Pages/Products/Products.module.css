@@ -1,0 +1,75 @@
+.products {
+  padding-top: 100px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 57px;
+  animation: coming 5s;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  margin-top: 50px;
+  margin-left: 45px;
+}
+
+.card {
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.cutlets_img {
+  width: 400px;
+  height: 290px;
+}
+
+.cutlets {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.cutlets_img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  opacity:1;
+}
+.cart {
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 8px 24px;
+  width: 400px;
+  height: 44px;
+  background: #157044;
+}
+
+.cart_img {
+  margin-right: 20px;
+}
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    margin-left: 0;
+    grid-template-columns: repeat(auto-fill, minmax(281px, 1fr));
+  }
+
+  .cutlets_img {
+    width: 281px;
+
+  }
+}
