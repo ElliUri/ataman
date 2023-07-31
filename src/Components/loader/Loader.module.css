@@ -8,7 +8,7 @@
     -webkit-animation: spin 2s linear infinite; /* Safari */
     animation: spin 2s linear infinite;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 200px;
   }
   
@@ -24,6 +24,6 @@
   
 .sorry {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }

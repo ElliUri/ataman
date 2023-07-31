@@ -43,7 +43,7 @@ const FormOrders = () => {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formvalue),
             };
-            fetch('http://13.53.133.130/email/email/api/', requestOptions)
+            fetch('http://13.53.82.132/email/email/api/', requestOptions)
                 .then((response) => response.json())
                 .catch((error) => console.error(error));
             setTextMessage(true);
@@ -53,7 +53,7 @@ const FormOrders = () => {
     return (
         <>
             <p className={s.write_us}>
-            Вы можете заказать или задать интересующие вас вопросы, мы будем рады ответить! 😊ы можете заказать или задать интересующие вас вопросы, мы будем рады ответить! 😊
+            Вы можете заказать или задать интересующие вас вопросы, мы будем рады ответить! 😊
                 </p>
             <form onSubmit={handleSubmit} className={s.form}>
                 <input
