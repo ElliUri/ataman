@@ -46,14 +46,6 @@ li {
   padding-left: 0;
 }
 
-.language {
-  position: absolute;
-  padding: 10px 20px;
-  background: #157044;
-  border-radius: 0px 100px 100px 100px;
-  position: absolute;
-  left: 92%;
-}
 .line {
   box-sizing: border-box;
   display: flex;
