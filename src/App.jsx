@@ -11,7 +11,6 @@ import ProductsPage from './Pages/Products/Products.jsx';
 import CertificatePage from './Pages/Certificate/Certificate.jsx';
 import AboutUsPage from './Pages/AboutUs/AboutUs.jsx'
 import './index.css';
-import FormOrders from "./Pages/FormOrders/FormOrders";
 import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage";
 import s from './Components/Layouts/Header/Header.module.css';
 import sl from './Components/loader/Loader.module.css'
@@ -31,8 +30,6 @@ function App() {
         element={<AboutUsPage />}/>
         <Route path="/contacts"
         element={<ContactsPage /> }/>
-        <Route path="/order" 
-        element={<FormOrders/>} />
         <Route path="*" 
         element={<NotFoundPage />}/>
     </Routes>

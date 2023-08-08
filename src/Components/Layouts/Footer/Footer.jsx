@@ -8,7 +8,6 @@ import logo from '../../../assets/logo-footer.svg';
 import what from '../../../assets/what.svg'
 import insta from '../../../assets/instagram.svg';
 import email from '../../../assets/email.svg';
-import qrcode from '../../../assets/qrcode.svg';
 import whatPhone from '../../../assets/what-phone.svg'
 import instaPhone from '../../../assets/insta-phone.svg'
 import emailPhone from '../../../assets/email-phone.svg';
@@ -112,8 +111,6 @@ href="https://www.instagram.com/ataman.ind/?igshid=YmMyMTA2M2Y%3D"
       </div>
       <div>
       </div>
-      <img src={qrcode} alt=""
-       className={s.qrcode} />
     </footer>
 
    
