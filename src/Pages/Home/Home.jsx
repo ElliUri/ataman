@@ -7,7 +7,6 @@ import insta from "../../assets/instagram.svg";
 import email from "../../assets/email.svg";
 import backYellow from "../../assets/Rectangle1.svg";
 import backYellow2 from "../../assets/Rectangle2.svg";
-import qrcode from "../../assets/qrcode.svg";
 import whatPhone from "../../assets/what-phone.svg";
 import instaPhone from "../../assets/insta-phone.svg";
 import emailPhone from "../../assets/email-phone.svg";
@@ -83,7 +82,6 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <img src={qrcode} alt="" className={s.qrcode} />
       </div>
 <img src={card} alt="" className={s.card}/>
 

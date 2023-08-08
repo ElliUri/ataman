@@ -57,6 +57,7 @@
   color: #ffffff;
 }
 .vector {
+  padding-top: 5px;
   padding-left: 22px;
   animation: arrow 2s infinite;
   animation-name: arrow;
